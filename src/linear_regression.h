@@ -10,4 +10,6 @@ public:
 
     Matrix predict(Matrix X);
 private:
+    double b;
+    double a;
 };
