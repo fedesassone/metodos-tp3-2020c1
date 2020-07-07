@@ -132,5 +132,5 @@ cmake-build-release
 # Otros
 data/*
 .gitmodules
-eigen
-pybind11
+eigen/
+pybind11/
