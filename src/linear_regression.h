@@ -4,12 +4,11 @@
 
 class LinearRegression {
 public:
-    LinearRegression();
+    LinearRegression(int n);
 
     void fit(Matrix X, Matrix y);
 
     Matrix predict(Matrix X);
 private:
-    double b;
-    double a;
+    Vector coefficients;
 };
