@@ -134,3 +134,8 @@ data/*
 .gitmodules
 eigen/
 pybind11/
+cmake/
+eigen 
+.vscode/
+activate/
+tp3/
